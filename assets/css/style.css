@@ -29,9 +29,13 @@ body, html {
     height: 700px;
 }
 
-#home h1 {
+#home .change {
     padding-top: 10px;
-    color: #fff; 
+    color: #ffa500; 
+}
+
+#home h2 {
+    color: #fff;
 }
     
 
