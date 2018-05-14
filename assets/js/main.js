@@ -18,23 +18,26 @@ var typed = new Typed('.action', {
 
 
 
+  
 
 
 
+// Readmore and readless
 
-// $(document).ready(function() {
-//   $("#toggle").click(function() {
-//     var text = $("#toggle").view();
-//     if (text == "Read More") {
-//       //Stuff to do when btn is in the read more state
-//       $("#toggle").view("Read Less");
-//       $("#view").slideDown(1000);
-//     } else {
-//       //Stuff to do when btn is in the read less state
-//       $("#toggle").view("Read More");
-//       $("#view").slideUp(1000);
-//     }
-//   });
-// });
-
+$(document).ready(function() {
+  $("#toggleThis").click(function() {
+    var elem = $("#toggle").span();
+    if (elem == "Read More") {
+      
+      //Stuff to do when btn is in the read more state
+      $("#toggleThis").span("Read Less");
+      $("span").slideDown();
+    } else {
+      
+      //Stuff to do when btn is in the read less state
+      $("#toggleThis").span("Read More");
+      $("span").slideUp();
+    }
+  });
+});
 
