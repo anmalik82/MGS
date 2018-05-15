@@ -1,4 +1,4 @@
-// below code is taken from typed.js
+// below code is taken from typed.js *****Home Page*****
 
 var typed = new Typed('.move', {
   strings: ["Hello World!", "Are you ready to explore the world?"],
@@ -17,27 +17,24 @@ var typed = new Typed('.action', {
 
 
 
+// Slidetoggle *****Home Page******
 
-  
+$(document).ready(function(){
 
-
-
-// Readmore and readless
-
-$(document).ready(function() {
-  $("#toggleThis").click(function() {
-    var elem = $("#toggle").span();
-    if (elem == "Read More") {
-      
-      //Stuff to do when btn is in the read more state
-      $("#toggleThis").span("Read Less");
-      $("span").slideDown();
-    } else {
-      
-      //Stuff to do when btn is in the read less state
-      $("#toggleThis").span("Read More");
-      $("span").slideUp();
-    }
+  $("#button_this1").click(function(){ 
+            $('#span1').slideToggle('1000');      
   });
-});
+  
+  $("#button_this2").click(function(){ 
+            $('#span2').slideToggle('1000');      
+  });
+  
+  $("#button_this3").click(function(){ 
+            $('#span3').slideToggle('1000');      
+  });
+  
+});  
+
+
+
 
