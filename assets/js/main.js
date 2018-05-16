@@ -1,23 +1,23 @@
 // below code is taken from typed.js *****Home Page*****
 
 var typed = new Typed('.move', {
-  strings: ["Hello World!", "Are you ready to explore the world?"],
+  strings: ["Hello World!", "Are you ready to explore World?"],
   typeSpeed: 100
 });
 
 var typed = new Typed('.speed', {
-  strings: ["Hello World!", "Are you ready to explore the world?"],
+  strings: ["Hello World!", "Are you ready to explore World?"],
   typeSpeed: 100
 });
 
 var typed = new Typed('.action', {
-  strings: ["Hello World!", "Are you ready to explore the world?"],
+  strings: ["Hello World!", "Are you ready to explore World?"],
   typeSpeed: 100
 });
 
 
 
-// Slidetoggle *****Home Page******
+//Slidetoggle *****Home Page******
 
 $(document).ready(function(){
 
@@ -33,7 +33,13 @@ $(document).ready(function(){
             $('#span3').slideToggle('1000');      
   });
   
-});  
+});
+
+
+
+
+
+
 
 
 

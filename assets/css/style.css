@@ -2,7 +2,6 @@ body, html {
     font-family: serif;
 }
 
-
 .navbar {
     border-bottom: solid 3px #ffa500;
     opacity: 0.8;
@@ -25,9 +24,19 @@ body, html {
 /*****Home*******/
 
 .carousel-item {
-    padding-top: 90px;
-    height: 700px;
+    padding-top: 0px;
+    height: 650px;
 }
+
+.carousel-item img {
+  
+    
+}
+
+/*.carousel-inner .item img { */
+/*    width: 100%;*/
+/*    height: 700px;*/
+/*}*/
 
 #home .change {
     padding-top: 10px;
@@ -43,6 +52,10 @@ body, html {
 .carousel-item .carousel-caption {
     
     color:#ffd700;
+}
+
+#span1, #span2, #span3 {
+    display: none;
 }
 
 
