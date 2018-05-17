@@ -16,6 +16,10 @@ body, html {
     color: #ffa500;
 }
 
+.navbar .navbar-nav .nav-link:active {
+    color: red;
+}
+
 .navbar-toggler-icon {
     color:#fff;
 }
