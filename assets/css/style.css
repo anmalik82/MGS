@@ -16,9 +16,9 @@ body, html {
     color: #ffa500;
 }
 
-.navbar .navbar-nav .nav-link:active {
-    color: red;
-}
+/*#navbar_mgs ul li a {*/
+/*    color: orange;*/
+/*}*/
 
 .navbar-toggler-icon {
     color:#fff;
