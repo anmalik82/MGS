@@ -132,6 +132,10 @@ body, html {
     color: #ffa500;
 }
 
+.blink {
+    margin-top: 35px;
+}
+
 
 
 
@@ -159,11 +163,11 @@ footer {
     
 }
 
-.social_links {
+.connect {
     padding-bottom: 20px;
 }
 
-.social_links li a i {
+.connect li a i {
     width: 40px;
     height: 40px;
     border-radius: 20%;
@@ -174,14 +178,21 @@ footer {
     background:#808080;
     line-height: 10px;
     margin-top: 20px;
+    -moz-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
 }
 
-.social_links li a i:hover {
+.connect li a i:hover {
     background:#ffa500;
 }
 
 .top-buffer {
     margin-top: 20px;
+}
+
+footer h1 {
+    color:#ffa500;
 }
 
 
