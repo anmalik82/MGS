@@ -1,3 +1,5 @@
+
+
 body, html {
     font-family: serif;
 }
@@ -10,11 +12,17 @@ body, html {
 .navbar .navbar-nav .nav-link {
     color: #fff;
     font-size: 24px;
+    
 }
 
 .navbar .navbar-nav .nav-link:hover {
     color: #ffa500;
 }
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #ffa500;
+}
+
 
 /*#navbar_mgs ul li a {*/
 /*    color: orange;*/
@@ -29,26 +37,41 @@ body, html {
 
 .carousel-item {
     padding-top: 0px;
-    height: 650px;
+    height: 80vh;
 }
 
-.carousel-item img {
-  
-    
+@media (max-width: 399px){
+   .carousel-item img {
+   height: 100vh;
+   }
 }
 
-/*.carousel-inner .item img { */
-/*    width: 100%;*/
-/*    height: 700px;*/
-/*}*/
+@media (max-width: 1024px) and (min-width: 400px) {
+     .carousel-item img {
+     background: no-repeat center center fixed; 
+     background-size: cover;
+     height: 100vh;
+    }
+}
 
 #home .change {
     padding-top: 10px;
     color: #ffa500; 
 }
 
-#home h2 {
-    color: #fff;
+#home .color {
+    color:#fff;
+    text-shadow: 2px 2px 4px #000 ;
+    
+}
+
+#home .color a {
+    color: #fff
+}
+
+#home .bg {
+    background-color: #ffa500;
+    opacity: 0.8;
 }
     
 
@@ -66,11 +89,16 @@ body, html {
 /******Experiences******/
 
 #experiences {
-    padding-top: 10px;
+    padding-top: 20px;
+    
 }
 
 #experiences .orange {
     color: #ffa500;
+}
+
+.gap {
+    margin-top: 20px;
 }
 
 
@@ -121,11 +149,19 @@ body, html {
     align-items: center;
 }
 
+#countries .flag .buffer {
+    margin-left: 30px;
+}
+
 
 /*******US*******/
 
 #us {
     padding-top: 10px;
+}
+
+#us .carousel-indicators li {
+    background-color: #ffa500;
 }
 
 #us h1 {
@@ -135,6 +171,29 @@ body, html {
 .blink {
     margin-top: 50px;
 }
+
+#us .carousel-inner {
+    margin-bottom: 50px;
+}
+
+#us .carousel-indicators {
+    margin-bottom: -50px;
+}
+
+.text {
+    text-align: center;
+}
+
+
+
+@media (max-width: 399px){
+   .carousel-item img {
+   height: 100vh;
+   }
+}
+
+
+
 
 
 
@@ -149,6 +208,15 @@ body, html {
     color: #ffa500;
 }
 
+#contact .space {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div #map {
+min-height: 325px;
+}
+
 
 
 /******footer******/
@@ -159,7 +227,7 @@ footer {
     background:#000000;
     opacity: 0.8;
     color: #fff;
-    min-height: 200px;
+    min-height: 150px;
     
 }
 
@@ -191,9 +259,30 @@ footer {
     margin-top: 20px;
 }
 
+.top-buffer1 {
+    margin-top: 5px;
+}
+
 footer h1 {
     color:#ffa500;
 }
 
 
+@media (max-width: 766px) {
+     footer .center ul li{
+        margin: 0 auto;
+    }
+     footer .center h5 {
+        display: inline-block;
+        text-align: center;
+     }
+     footer .center img {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0 auto;
+        
+        
+     }
+}
 

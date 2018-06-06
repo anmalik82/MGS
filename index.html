@@ -12,7 +12,6 @@
     <title>MGS | Lets go study abroad</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/twentytwenty.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   </head>
   
@@ -20,19 +19,19 @@
   <body>
     
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-drak bg-dark">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_mgs" aria-controls="navbar_mgs" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-drak bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_mgs" aria-controls="navbar_mgs" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon">&#9783;</span>
-         </button>
-         <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" class="img-fluid animated infinite swing"></a>
+        </button>
+         <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" class="img-fluid animated rotateIn"></a>
          <div class="collapse navbar-collapse" id="navbar_mgs">
-             <ul class="navbar-nav ml-auto">
-               <li class="nav-item"><a class="nav-link" href="#home"><i class="fa fa-h-square" aria-hidden="true"></i> HOME</a></li>
-               <li class="nav-item"><a class="nav-link" href="#experiences"><i class="fa fa-graduation-cap" aria-hidden="true"></i> EXPERIENCES</a></li>
-               <li class="nav-item"><a class="nav-link" href="#countries"><i class="fa fa-globe" aria-hidden="true"></i> COUNTRIES</a></li>
-               <li class="nav-item"><a class="nav-link" href="#us"><i class="fa fa-diamond" aria-hidden="true"></i> US</a></li>
-               <li class="nav-item"><a class="nav-link" href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> CONTACT</a></li>
-             </ul>
+              <ul class="navbar-nav ml-auto">
+                 <li class="nav-item" onclick="makeActive(this)"><a class="nav-link" href="#home"><i class="fa fa-h-square" aria-hidden="true"></i> HOME</a></li>
+                 <li class="nav-item" onclick="makeActive(this)"><a class="nav-link" href="#experiences"><i class="fa fa-graduation-cap" aria-hidden="true"></i> EXPERIENCES</a></li>
+                 <li class="nav-item" onclick="makeActive(this)"><a class="nav-link" href="#countries"><i class="fa fa-globe" aria-hidden="true"></i> COUNTRIES</a></li>
+                 <li class="nav-item" onclick="makeActive(this)"><a class="nav-link" href="#us"><i class="fa fa-diamond" aria-hidden="true"></i> US</a></li>
+                 <li class="nav-item" onclick="makeActive(this)"><a class="nav-link" href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> CONTACT</a></li>
+              </ul>
          </div>
       </nav>
     </header>
@@ -50,27 +49,27 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                  <img class="d-block w-100" src="assets/images/mile10.jpg" alt="First slide">
-                 <div class="carousel-caption d-none d-md-block">
+                 <div class="carousel-caption d-none d-md-block color">
                     <h2 class="display-2"> Hello World!</h2>
-                    <h2 class="display-3 move">Let's go study abroad</h2>
-                    <a class="btn btn-success btn-lg" href="#contact" role="button">CONTACT US!</a>
+                    <h2 class="display-4 move">Let's go study abroad</h2>
+                    <a class="btn btn-outline-warning btn-lg" href="#contact" role="button">CONTACT US!</a>
                  </div>
               </div>
               <div class="carousel-item">
                  <img class="d-block w-100" src="assets/images/mile9.jpg" alt="Second slide">
-                 <div class="carousel-caption d-none d-md-block">
+                 <div class="carousel-caption d-none d-md-block color">
                     <h2 class="display-2">Hello World!</h2>
-                    <h2 class="display-3 speed">Let's go study abroad</h2>
-                    <a class="btn btn-success btn-lg" href="#contact" role="button">CONTACT US!</a>
+                    <h2 class="display-4 speed">Let's go study abroad</h2>
+                    <a class="btn btn-outline-warning btn-lg" href="#contact" role="button">CONTACT US!</a>
                  </div>
               </div>
               <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/mgs3.jpeg" alt="Third slide">
-              <div class="carousel-caption d-none d-md-block">
-                  <h2 class="display-2">Hello World!</h2>
-                  <h2 class="display-3 action">Let's go study abroad</h2>
-                  <a class="btn btn-success btn-lg" href="#contact" role="button">CONTACT US!</a>
-              </div>
+                <img class="d-block w-100" src="assets/images/mgs3.jpeg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block color">
+                    <h2 class="display-2">Hello World!</h2>
+                    <h2 class="display-4 action">Let's go study abroad</h2>
+                    <a class="btn btn-outline-warning btn-lg" href="#contact" role="button">CONTACT US!</a>
+                </div>
               </div>
             </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -95,10 +94,10 @@
           </div>
         
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             <div class="card">
               <div class="card-body">
-                 <h3 class="card-title text-center jumbotron">A Dynamic Future</h3>
+                 <h3 class="card-title text-center bg"><i>A Dynamic Future</i></h3>
                  <p class="card-text">By visiting our website you are one step closer to a once in a lifetime experience!</p> 
                  <p class="card-text">Studying abroad is a wonderful way to expand knowledge horizons. Making friends from all over the world and expanding your 
                  international network is just one of the advantages of studying overseas. You will be studying at one of the best educational 
@@ -112,17 +111,17 @@
                   <span id="span1" class="card-text">We at Mohar Global Services are here to guide you along the way in every step. MGS takes pride in assisting and 
                   helping genuine students. We wish to offer you all the support you need and we will answer all of your questions. By choosing us 
                   as your support network we will make sure this experience is going to be valuable and enriching.</span>
-                  <button type="button" class="btn btn-primary" id="button_this1" data-toggle="button" aria-pressed="false" autocomplete="off">
-                  READ
+                  <button type="button" class="btn btn-outline-warning btn-lg" id="button_this1" data-toggle="button" aria-pressed="false" autocomplete="off">
+                  READ &raquo;
                   </button>
               </div>
             </div>
           </div>
           
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title text-center jumbotron">How it works</h3>
+                <h3 class="card-title text-center bg"><i>How it works</i></h3>
                 <p class="card-text">MGS will guide you from your first inquiry and answer all your questions until you decide a study course and country 
                    of your choice.</p> 
                    <p class="card-text">Furthermore, MGS will help and support you in admissions, visa arrangements and housing abroad. MGS has a criteria of 
@@ -137,16 +136,16 @@
                   have introduce a screening procedure in order to make sure our admission and student visa success is 100%. MGS will charge you 
                   five hundred Euros in total for the full consultancy services. Half of the payment in advance and other half after the admission and 
                   before visa application.</span>
-                  <button type="button" class="btn btn-primary" id="button_this2" data-toggle="button" aria-pressed="false" autocomplete="off">
-                  READ
+                  <button type="button" class="btn btn-outline-warning btn-lg" id="button_this2" data-toggle="button" aria-pressed="false" autocomplete="off">
+                  READ &raquo;
                   </button>
               </div>
              </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             <div class="card">
               <div class="card-body">
-                <h3 class="card-title text-center jumbotron">Rise above yourself</h3>
+                <h3 class="card-title text-center bg"><i>Rise above yourself</i></h3>
                    <p class="card-text">Studying at an international college or university in a new country is a wonderful and lifetime experience. 
                    It benefits to understand a new world and explore interesting cultures from across the globe. It also helps to learn several different languages 
                    as well as to travel the beautiful world. Making friends from all around the world and expanding international network is another advantage of 
@@ -160,8 +159,8 @@
                    <span id="span3" class="card-text">While studying overseas one can taste the delicious cuisines from different parts of the world and let others know about home 
                    cuisine. The entire experience of studying at an international destination is indeed gratifying and enriching. This unique venture offers you 
                    international exposure self-confidence and opens countless doors of international opportunities.</span>
-                   <button type="button" class="btn btn-primary" id="button_this3" data-toggle="button" aria-pressed="false" autocomplete="off">
-                   READ
+                   <button type="button" class="btn btn-outline-warning btn-lg" id="button_this3" data-toggle="button" aria-pressed="false" autocomplete="off">
+                   READ &raquo;
                    </button>
               </div>
              </div>
@@ -181,78 +180,129 @@
             <h1 class="text-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Experiences</h1>
           </div>
         </div>
-      
         
+        
+        
+        <div class="row jumbotron gap">
+          <div class="col-md-6">
+              <div class="card">
+                <a href="assets/images/lena2.jpg"><img class="card-img-top img-thumbnail" src="assets/images/lena2.jpg" alt="Card image cap" title="Click to enlarge"></a>
+                <div class="card-body">
+                    <h4 class="card-title text-center orange"><i class="fa fa-female" aria-hidden="true"></i> Lena Sophia</h4>
+                    <hr width="20%">
+                    
+                        <p class="text-center">
+                          <a class="btn btn-outline-warning btn-lg" data-toggle="collapse" href="#student4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            READ &raquo;
+                          </a>
+                        </p>
+
+                        <div class="collapse" id="student4">
+                            <div class="card card-body">
+                              <p>International education was the best thing ever for me and students should be thankful to MGS.
+                              I’ve surrounded myself with people from all different backgrounds and have already made some great friends.</p>
+                              <p>I’m looking forward to the rest of my time abroad and will conclude by saying that I believe
+                              that it is crucial for every student to study abroad at some point during their education, as it will
+                              make you a better-rounded person and will also open so many doors for your future.</p>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+          
+          
+          <div class="col-md-6">
+              <div class="card">
+                  <a href="assets/images/k10.jpg"><img class="card-img-top img-thumbnail" src="assets/images/k10.jpg" alt="Card image cap" title="Click to enlarge"></a>
+                  <div class="card-body">
+                      <h4 class="card-title text-center orange"><i class="fa fa-female" aria-hidden="true"></i> Ksenia Simakova</h4>
+                      <hr width="20%">
+                        <p class="text-center">
+                          <a class="btn btn-outline-warning btn-lg" data-toggle="collapse" href="#student3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            READ &raquo;
+                          </a>
+                        </p>
+
+                      <div class="collapse" id="student3">
+                          <div class="card card-body">
+                            <p>It is so amazing to see the cultural differences between countries, and even more amazing to learn and
+                            understand the different ways of people do things.</p>
+                            <p>There are three things in life that no one can take away - memories, experiences, and education. 
+                            I am grateful to take away all three from this adventure and
+                            they have lead to the person I am today. So... Be courageous. Be open. Be a citizen of the world. Be
+                            humbled. Many thanks to MGS - let's go study abroad for meaningful guidence.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+          
         <div class="row jumbotron">
-          <div class="col-md-7">
-            <h2 class="text-muted text-center"><i class="fa fa-female" aria-hidden="true"></i> Arenika Lysko</h2>
-            <hr width="30%">
-            <p class="lead">International education is a great and breathtaking experience. I think every student should go and experience the beautiful world
-            to grow and learn from different cultures and regions. Let’s Go Study Abroad.com is wonderful start and students from across the world should 
-            totally be glad to have them to serve you. Everyone who has the chance and opportunity to study abroad. 
-            I have only one suggestion for you, DO IT! it’s a must do!</p>
+          <div class="col-md-6">
+            <div class="card">
+                <a href="assets/images/mohsin2.jpg"><img class="card-img-top img-thumbnail" src="assets/images/mohsin2.jpg" alt="Card image cap" title="Click to enlarge"></a>
+                <div class="card-body">
+                    <h4 class="card-title text-center orange"><i class="fa fa-male" aria-hidden="true"></i> Mohsin Rasheed</h4>
+                    <hr width="20%">
+                    
+                        <p class="text-center">
+                            <a class="btn btn-outline-warning btn-lg" data-toggle="collapse" href="#student2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              READ &raquo;
+                            </a>
+                        </p>
+
+                    <div class="collapse" id="student2">
+                        <div class="card card-body">
+                          <p>I am Mohsin and I’d like to thanks MGS-Let’s Go Study Abroad, I was able to find a university that
+                          best fit what I was looking for and to start my next academic journey. So far the experience has been wonderful.</p>
+                          <p>I think that pursuing my education abroad, and at an international university, was the
+                          best decision I’ve ever made. Getting the opportunity to interact with people from all over the world
+                          and getting to understand the different cultures is a great experience.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
           </div>
-          <div class="col-md-5">
-            <img src="assets/images/arenika2.JPG" class="img-fluid"  alt="student1">
-            <img src="assets/images/arenika3.png" class="img-fluid"  alt="student1">
+          
+          <div class="col-md-6">
+            <div class="card">
+                <a href="assets/images/arenika3.png"><img class="card-img-top img-thumbnail" src="assets/images/arenika3.png" alt="Card image cap" title="Click to enlarge"></a>
+                <div class="card-body">
+                    <h4 class="card-title text-center orange"><i class="fa fa-female" aria-hidden="true"></i> Arenika Lysko</h4>
+                    <hr width="20%">
+                    <p class="text-center">
+                        <a class="btn btn-outline-warning btn-lg" data-toggle="collapse" href="#student1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          READ &raquo;
+                        </a>
+                    </p>
+
+                    <div class="collapse" id="student1">
+                        <div class="card card-body">
+                          <p>International education is a great and breathtaking experience. I think every student should go and
+                          experience the beautiful world to grow and learn from different cultures, values, believes and regions.</p>
+                          <p>Let’s Go Study Abroad.com is wonderful start and students from across the world should totally be glad to have
+                          them to serve you. Everyone who has the chance and opportunity to study abroad. , I have only one
+                          suggestion for you, DO IT! it’s a must do!</p>
+                          
+                        </div>
+                    </div>
+                  </div>
+            </div>
           </div>
-        </div>
-          
-          
-         
-        <div class="row jumbotron"> 
-          <div class="col-md-5">
-            <img src="assets/images/mohsin5.jpg" class="img-fluid" alt="student1">
-            <img src="assets/images/mohsin2.jpg" class="img-fluid" alt="student1">
-          </div>
-          <div class="col-md-7">
-            <h2 class="text-muted text-center"><i class="fa fa-male" aria-hidden="true"></i> Mohsin Rasheed</h2>
-            <hr width="30%">
-            <p class="lead float-right">I am Mohsin and I’d like to thanks MGS-Let’s Go Study Abroad, I was able to find a university that best fit 
-            what I was looking for and to start my next academic journey. So far the experience has been wonderful. I think that pursuing my education 
-            abroad, and at an international university, was the best decision I’ve ever made. Getting the opportunity to interact with people from all 
-            over the world and getting to understand the different cultures is a great experience.</p>
-          </div>
-        </div>
-          
-          
-          
-        <div class="row jumbotron">
-          <div class="col-md-7">
-            <h2 class="text-muted text-center"><i class="fa fa-female" aria-hidden="true"></i> Lena Sophia</h2>
-            <hr width="30%">
-            <p class="lead">International education was the best thing ever for me and students should be thankful to MGS.  I’ve surrounded myself with
-            people from all different backgrounds and have already made some great friends. I’m looking forward to the rest of my time abroad and will 
-            conclude by saying that I believe that it is crucial for every student to study abroad at some point during their education, as it will make
-            you a better-rounded person and will also open so many doors for your future.</p>
-          </div>
-          <div class="col-md-5">
-            <img src="assets/images/lena3.jpg" class="img-fluid" alt="student1">
-            <img src="assets/images/lena2.jpg" class="img-fluid" alt="student1">
-          </div>
-        </div>
-          
-          
-          
-        <div class="row jumbotron">
-          <div class="col-md-5">
-            <img src="assets/images/k4.jpg" class="img-fluid" alt="student1">
-            <img src="assets/images/k10.jpg" class="img-fluid" alt="student1">
-          </div>
-          <div class="col-md-7">
-            <h2 class="text-muted text-center"><i class="fa fa-female" aria-hidden="true"></i> Ksenia Simakova</h2>
-            <hr width="30%">
-            <p class="lead float-right">It is so amazing to see the cultural differences between countries, and even more amazing to learn the different
-            ways people do things. There are three things in life that no one can take away- memories, experiences, and education. I am grateful to take
-            away all three from this adventure and they have lead to the person I am today. So... Be courageous. Be open. Be a citizen of the world. 
-            Be humbled.</p>
-          </div>
-        </div>
       </div>
+    </div>
+    
+    
+    
+    
+    
+   
   
    </section>
     <hr width="50%">
-  
   
     <section id="countries">
       
@@ -264,15 +314,20 @@
         </div>
       </div>
       
+          
+        
       <div class="row">
           <div class="col">
-            <ul class= flag>
-                <li><div id="red"></div></li>
-                <li><div id="white"><h1 class="countries">Our Countries:</h1></div></li>
-                <li><div id="blue"></div></li>
-            </ul>
+              <ul class= flag>
+                  <li><div id="red"></div></li>
+                  <li><div id="white" class="buffer"><h1 class="countries">Our Countries:</h1></div></li>
+                  <li><div id="blue"></div></li>
+              </ul>
           </div>
       </div>
+      
+      
+        
       
       
 
@@ -302,7 +357,9 @@
       
     <div class="container">
         <div class="row">
-          <div class="col-md-6 blink">
+          <div class="col blink">
+            <h1 class="text-center"><i><i class="fa fa-quote-left" aria-hidden="true"></i> Testimonials <i class="fa fa-quote-right" aria-hidden="true"></i></i></h1>
+            <hr width="20%">
             
             <div id="testimonial" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -310,76 +367,64 @@
                   <li data-target="#testimonial" data-slide-to="1"></li>
                   <li data-target="#testimonial" data-slide-to="2"></li>
                 </ol>
+              
               <div class="carousel-inner">
                 
-                  <div class="carousel-item active">
-                    <blockquote class="blockquote">
-                        <h1 class="text-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <i>Jasper Hofman</i></h1>
-                        <hr width="40%">
-                        <h1 class="text-center"><i>International Marketing NHL Stenden University</i></h1>
-                        <hr width="80%">
-                        <p class="mb-0 lead"><i class="fa fa-quote-left" aria-hidden="true"></i> I have been working with MGS since the start of the company and have always been impressed by
-                            the professionalism and proactive approach of the MGS team and the way MGS is carefully preparing
-                            students for a degree course at NHL Stenden whilst always being very transparent to all stakeholders
-                            involved. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
-                    </blockquote>
-                  </div>
+                    <div class="carousel-item active">
+                      <blockquote class="blockquote">
+                        <div class="text">
+                          <p><img src="assets/images/pro21.jpg" alt="picture1" class="img-fluid rounded-circle img-thumbnail"></p>
+                          <h1><i class="fa fa-graduation-cap" aria-hidden="true"></i> <i>Jasper Hofman</i></h1>
+                          <hr width="40%">
+                          <h3><i>International Marketing NHL Stenden University</i></h3>
+                          <hr width="80%">
+                        </div>
+                          <p class="mb-0 lead"><i class="fa fa-quote-left" aria-hidden="true"></i> I have been working with MGS since the start of the company and have always been impressed by
+                              the professionalism and proactive approach of the MGS team and the way MGS is carefully preparing
+                              students for a degree course at NHL Stenden whilst always being very transparent to all stakeholders
+                              involved. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                      </blockquote>
+                    </div>
                   
-                  <div class="carousel-item">
-                    <blockquote class="blockquote">
-                        <h1 class="text-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <i>Latifa Benhadda</i></h1>
-                        <hr width="40%">
-                        <h1 class="text-center"><i>Lecturer on Intercultural Management</i></h1>
-                        <hr width="80%">
-                        <p class="mb-0 lead"><i class="fa fa-quote-left" aria-hidden="true"></i> Well, it will enable 
-                        you to broaden your horizon, enrich your cultural repertoire, and become a global citizen. 
-                        Studying abroad means refining and expanding skills such as critical
-                        thinking, problem-solving, communication, time management, intercultural sensitivity and sense of
-                        responsibility towards your country, community, and the humanity in general. It also means having
-                        fun, making new friends and explore the world outside your comfort zone. It is challenging but
-                        exciting. MGS Let’s Go Study Abroad is your best chance. Do not miss it. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
-                    </blockquote>
-                  </div>
+                    <div class="carousel-item">
+                      <blockquote class="blockquote">
+                        <div class="text">
+                          <p><img src="assets/images/pro19.jpg" alt="picture1" class="img-fluid rounded-circle img-thumbnail"></p>
+                          <h1><i class="fa fa-graduation-cap" aria-hidden="true"></i> <i>Latifa Benhadda</i></h1>
+                          <hr width="40%">
+                          <h3><i>Lecturer on Intercultural Management</i></h3>
+                          <hr width="80%">
+                        </div>
+                          <p class="mb-0 lead"><i class="fa fa-quote-left" aria-hidden="true"></i> Studying abroad means refining 
+                          and expanding skills such as critical thinking, problem-solving, communication, time management, 
+                          intercultural sensitivity and sense of responsibility towards your country, community, 
+                          and the humanity in general. It also means having fun, making new friends and explore the world
+                          outside your comfort zone. It is challenging but exciting. MGS Let’s Go Study Abroad is your best chance. 
+                          Do not miss it. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                      </blockquote>
+                    </div>
                   
-                  <div class="carousel-item">
-                    <blockquote class="blockquote">
-                        <h1 class="text-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <i>Prof. Dr. Tjeerd Zandberg</i></h1>
-                        <hr width="40%">
-                        <h1 class="text-center"><i>Lecturer on Intercultural Management</i></h1>
-                        <hr width="80%">
-                        <p class="mb-0 lead"><i class="fa fa-quote-left" aria-hidden="true"></i> Studying overseas is a great decision for the student and for the entire world. I encourage every
-                        student to take the opportunity and go abroad. You become an international citizen by studying at an
-                        international university outside of your home country and enormous amount of opportunities will
-                        come your way. I totally recommend you to use the services of MGS Netherlands and make your
-                        dreams come true. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
-                    </blockquote>
-                  </div>
+                    <div class="carousel-item">
+                      <blockquote class="blockquote">
+                        <div class="text">
+                          <p><img src="assets/images/pro6.jpg" alt="picture1" class="img-fluid rounded-circle img-thumbnail"></p>
+                          <h1><i class="fa fa-graduation-cap" aria-hidden="true"></i> <i>Prof. Dr. Tjeerd Zandberg</i></h1>
+                          <hr width="40%">
+                          <h3><i>Lecturer on Intercultural Management</i></h3>
+                          <hr width="80%">
+                        </div>
+                          <p class="mb-0 lead"><i class="fa fa-quote-left" aria-hidden="true"></i> Studying overseas is a great decision for the student and for the entire world. I encourage every
+                          student to take the opportunity and go abroad. You become an international citizen by studying at an
+                          international university outside of your home country and enormous amount of opportunities will
+                          come your way. I totally recommend you to use the services of MGS-lets go study abroad and make your
+                          dreams come true. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                      </blockquote>
+                    </div>
               </div>
-              
             </div>
-                        
-            
           </div>
-          
-          <div class="col-md-6 blink">
-            
-            <p class="lead">Mohar Global Services promotes international education and travel study in order to expand the
-                international student mobility. MGS offers international education consultancy services to students
-                and to promote associated educational institutes and universities from across the globe.</p>
-                <ul>
-                  <li>MGS attract the right students to right schools</li>
-                  <li>MGS bring the world closer through education</li>
-                  <li>MGS establishes reliance among schools and students</li>
-                  <li>MGS aim to offer variety of wonderful opportunities to students</li>
-                  <li>MGS aims to promote all opportunities of study or learning abroad</li>
-                  <li>To offer maximum opportunities for the expansion of overseas education</li>
-                  <li>Aims to reach good quality schools, colleges and universities across the world</li>
-                  <li>To make the job of students and institutes easy with our promotional services</li>
-                  <li>To establish a solid network on international education consultancy services worldwide</li>
-                </ul>
-            </div>
         </div>
-    </div>
+      </div>
   </section>
     <hr width="50%">
   
@@ -391,66 +436,62 @@
             <p class="lead">Are you ready for international education? Feel free to contact us for more details.</p>
           </div>
         </div>
-        
+      </div>
+      
+      
+      <div class="container space">
         <div class="row">
-          <div class="col-md-8 mx-auto">
+          <div class="col-md-6">
+            
             <form>
               <fieldset class="form-group"><input type="text" class="form-control form-control-lg" id="name" placeholder="Name"></fieldset>
               <fieldset class="form-group"><input type="email" class="form-control form-control-lg" id="email" placeholder="Email"></fieldset>
-              <fieldset class="form-group"><input type="text" class="form-control form-control-lg" id="subject" placeholder="Subject"></fieldset>
-              
               <fieldset class="form-group"><textarea class="form-control form-control-lg" id="message" placeholder="Message" rows="7"></textarea></fieldset>
-              
-              <button type="submit" class="btn btn-outline-success btn-lg">SUBMIT</button>
-              
+              <button type="submit" class="btn btn-outline-warning btn-lg btn-block">SUBMIT</button>
             </form>
           </div>
+          
+          <div class="col-md-6">
+              <h3 class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i> Mohar Global Services</h3>
+              <h6 class="text-center">De Fennen 322, 8918 CP, Leeuwarden,The Netherlands.</h6>
+              <h6 class="text-center"><i class="fa fa-mobile" aria-hidden="true"></i>  0031-616-563-733</h6>
+              
+              
+              <div id="map"></div>
+          </div>
+          
         </div>
       </div>
-      
-    </section>
-    
-    
-    
+   </section>
     
     <footer>
       
         <div class="row">
-          <div class="col-sm-4 text-left top-buffer">
-            <h1>Reach Us</h1>
-             <ul>
-               <li>Mohar Global Services</li>
-               <li>De Fennen 322</li>
-               <li>8918 CP Leeuwarden, The Netherlands</li>
-               <li>Office Ph: 0031-588- 434-932</li>
-               <li>Mobile: 0031-616- 563-733</li>
-               <li>E-mail: info@letsgostudyabroad.com</li>
-               <li>Skype ID: letsgostudyabroad</li>
-             </ul>
-            
-          </div>
-          <div class="col-sm-4 text-center top-buffer">
-            <h1>Connect with us:</h1>
+          <div class="col-sm-4 text-left top-buffer1 center">
             <ul class="list-inline connect">
-              <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-              <li></li>
-              <li></li>
+              <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/mgs-let-sgostudyabroad-com-1a642844/"><i class="fa fa-linkedin"></i></a></li>
+              <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/MGSHolland"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a target="_blank" href="https://twitter.com/MGSLGSA"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/playlist?list=PLdMDR9txP_5LujIsGyYIyFm8xjXWg5b63"><i class="fa fa-youtube"></i></a></li>
+              <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/mgsholland/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li class="list-inline-item"><a target="_blank" href="mailto:info@letsgostudyabroad.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
             </ul>
+             
             
           </div>
-          <div class="col-sm-4 text-right top-buffer">
-            <h1>Logo</h1>
+          <div class="col-sm-4 text-center top-buffer center">
+            <h5 class="text-muted"> &copy;<i>MGS-Lets go study abroad,</i> 2018.</h5> 
+            <h5 class="text-muted"><i>All rights reserved.</i></h5>
+            
+          </div>
+          
+          <div class="col-sm-4 text-right top-buffer center">
             <a class="logo" href="#"><img src="assets/images/logo.png" alt="logo" class="img-fluid animated infinite pulse"></a>
-            
-            
           </div>
         </div>
       
     </footer>
+    
 
 
 
@@ -467,9 +508,11 @@
     <script type="text/javascript" src="assets/js/app.js"></script>
     <script type="text/javascript" src="assets/js/blue.js"></script>
     <script type="text/javascript" src="assets/js/typed.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.twentytwenty.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.event.move.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyjp4wS1n1Wjwxpc49wldOyH5q2Ofpznk&callback=initMap"async defer></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     
   </body>
 </html> 
+
+
+
