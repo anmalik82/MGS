@@ -37,10 +37,10 @@ $(document).ready(function(){
 
 // Our Countries
 
-var typed = new Typed('.countries', {
-  strings: ["Our Countries!", "MGS provides services in Australia, Canada, East and West European countries, Dubai, Bali Indonesia, Malaysia, New Zealand, Qatar Doha, South Africa, Thailand. Contact our study advisor for details."],
-  typeSpeed: 120
-});
+// var typed = new Typed('.countries', {
+//   strings: ["Our Countries!", "MGS provides services in Australia, Canada, England, European Countries, Dubai, Bali Indonesia, Malaysia, New Zealand, Qatar Doha, South Africa, and Thailand."],
+//   typeSpeed: 120
+// });
 
 
 
