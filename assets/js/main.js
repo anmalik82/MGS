@@ -33,34 +33,12 @@ $(document).ready(function(){
 
 
 
-
-
-// Our Countries
-
-// var typed = new Typed('.countries', {
-//   strings: ["Our Countries!", "MGS provides services in Australia, Canada, England, European Countries, Dubai, Bali Indonesia, Malaysia, New Zealand, Qatar Doha, South Africa, and Thailand."],
-//   typeSpeed: 120
-// });
-
-
-
-
-
 // active class for navbar
 
 function makeActive(elem) {
   $(elem).addClass('active');
   $(elem).siblings().removeClass('active');
 }
-
-
-
-
-
-// API Key
-//AIzaSyCyjp4wS1n1Wjwxpc49wldOyH5q2Ofpznk
-
-
 
 
 // Google Maps
