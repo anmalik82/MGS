@@ -76,21 +76,16 @@ body, html {
 
 #experiences {
     padding-top: 20px;
-    
 }
 
 #experiences .orange {
     color: #ffa500;
+    margin-top: 80px;
 }
 
 .gap {
     margin-top: 20px;
 }
-
-
-
-
-
 
 
 /*******Countries*******/
@@ -100,6 +95,8 @@ body, html {
 
 #countries h1 {
     color:#ffa500;
+    margin-top: 80px;
+    
 }
 
 .flag {
@@ -152,6 +149,7 @@ body, html {
 
 #us h1 {
     color: #ffa500;
+    margin-top: 80px;
 }
 
 .blink {
@@ -184,6 +182,7 @@ body, html {
 
 #contact h1 {
     color: #ffa500;
+    margin-top: 80px;
 }
 
 #contact .space {
