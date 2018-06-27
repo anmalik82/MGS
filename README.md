@@ -25,7 +25,7 @@ satisfies the students by guiding, supporting and assisting them on the entire p
 
 
 #### Technical Information
-This project has been completed by using the following tecnologies: 
+This project has been completed by using the following technologies: 
 HTML5, CSS3, Bootstrap4, JavaScript, jQuery, Typed.js, Particles.js, Animate.css, Google Fonts, Google Maps, Font Awesome.
 
  
@@ -34,12 +34,12 @@ This project has been divided into five sections like Home, Experiences, Countri
 website which is built according to clients demands and needs.
 
 ###### Home
-In this section, bootsrtap carousel has been used to show some pictures of universities by adding some text with typed.js. Furthermore,
-a buttom ( Contact Us) is built to develop interectivity with users. lastly, bootstrap cards have been used to provide general information 
+In this section, bootstrap carousel has been used to show some pictures of universities by adding some text with typed.js. Furthermore,
+a button ( Contact Us) is built to develop interactivity with users. lastly, bootstrap cards have been used to provide general information 
 about company by adding toggle buttons.
 
 ###### Experiences
-In this part, bootsrtap cards have been used to show students pictures and experiences about international education by adding some buttons for
+In this part, bootstrap cards have been used to show students pictures and experiences about international education by adding some buttons for
 interactivity.
 
 ###### Countries
@@ -47,13 +47,13 @@ This section is pretty special because Netherlands flag has been added and anima
 to show text by adding a big button.
 
 ###### US
-In this section, company video is placed for users information and gave them a clear picture of international education. Afterthat,
+In this section, company video is placed for users information and gave them a clear picture of international education. After that,
 testimonials section has been added with the pictures of professors and educational professionals. Bootstrap carousel has been used in this section for 
 testimonials.
 
 ###### Contact
-In the last section of this project, contact foam and google maps have been placed for users interactivity and conveience. Bootsrtap has been
-used to buid contact foam and google maps has been placed with the help of google maps API key. 
+In the last section of this project, contact foam and google maps have been placed for users interactivity and convenience. Bootstrap has been
+used to build contact foam and google maps has been placed with the help of google maps API key. 
 
 
 
@@ -65,7 +65,9 @@ for version control.
 
 #### Acknowledgments and Special Thanks
 In the process of project building, I got great assistance from stackoverflow, W3Schools, MDN and Bootstrapious. I would like to pay my thanks to all 
-my tutors and mentor for thier great support and valuable assistance.
+my tutors and mentor for their great support and valuable assistance.
+
+
 
 
 
