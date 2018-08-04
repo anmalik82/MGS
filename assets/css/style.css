@@ -1,8 +1,10 @@
-
+/*****Serif font used for this project*******/
 
 body, html {
     font-family: serif;
 }
+
+/*****Header*******/
 
 .navbar {
     border-bottom: solid 3px #ffa500;
@@ -22,11 +24,6 @@ body, html {
 .navbar .navbar-nav .nav-item.active .nav-link {
     color: #ffa500;
 }
-
-
-/*#navbar_mgs ul li a {*/
-/*    color: orange;*/
-/*}*/
 
 .navbar-toggler-icon {
     color:#fff;
@@ -253,23 +250,23 @@ footer h1 {
 
 
 @media (max-width: 399px){
-   .carousel-item img {
-   height: 100vh;
+    .carousel-item img {
+      height: 100vh;
    }
 }
 
 @media (max-width: 1024px) and (min-width: 400px) {
-     .carousel-item img {
-     background: no-repeat center center fixed; 
-     background-size: cover;
-     height: 100vh;
+    .carousel-item img {
+      background: no-repeat center center fixed; 
+      background-size: cover;
+      height: 100vh;
     }
 }
 
 
 @media (max-width: 766px) {
      #change img {
-     height: 30vh;
+      height: 30vh;
    }
      #change .small {
        text-overflow: ellipsis; 
@@ -290,8 +287,6 @@ footer h1 {
          margin: 0 auto;
     }
 }
-
-
 
 
 @media (max-width: 1024px) and (min-width: 767px) {
