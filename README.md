@@ -15,7 +15,7 @@ it promotes the idea of travel study.
 The project brings information about studying abroad to students. It provides multiple options of international 
 destinations and academic courses. The projects also encourage students to study abroad and expand their international
 opportunities. The project fulfils the needs of students from around world to study overseas by providing them 
-accurate information on studying overseas. It provides  support all the student’s needs. Furthermore, the projects 
+accurate information on studying overseas. It provides  support all the student’s needs. Furthermore, the project 
 satisfies the students by guiding, supporting and assisting them on the entire procedure of studying abroad.
 
 
@@ -29,14 +29,14 @@ This project has been divided into five sections like Home, Experiences, Countri
 website which is built according to client demands and wishes. In this project, html5 and css3 have been used for structure and style where
 as bootstrap has been used for grid system. Mostly, bootstrap library code is used to build this project.
 
-###### Browser tab, Menubar & Footer
+###### Menubar, Footer, Browser tab
 Font awesome icons have been used for menubar where as animate.css made logo eye catching in the footer. Furthermore, company logo has 
 been used as a favicon icon on browser tab. 
 
 ###### Home
-In this section, bootstrap carousel has been used to show some pictures of universities by adding some text with typed.js. Furthermore,
-a button ( Contact Us) is built to develop interactivity with users. Lastly, bootstrap cards have been used to provide general information 
-about company by adding toggle buttons.
+In this section, bootstrap carousel has been used to show some pictures of universities by adding some text with typed.js.
+One of the photos used in this carousel were obtained from PEXELS. Furthermore, a button ( Contact Us) is built to develop interactivity with users.
+Lastly, bootstrap cards have been used to provide general information about company by adding toggle buttons.
 
 ###### Experiences
 In this part, bootstrap cards have been used to show students pictures and experiences about international education by adding some buttons for
