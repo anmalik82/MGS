@@ -34,7 +34,7 @@ body, html {
 
 .carousel-item {
     padding-top: 0px;
-    height: 80vh;
+    height: 100vh;
 }
 
 #home .change {
@@ -58,10 +58,12 @@ body, html {
 }
     
 
+.carousel-item .carousel-caption .center-2 {
+    padding-bottom: 10%;
+}
 
-.carousel-item .carousel-caption {
-    
-    color:#ffd700;
+.carousel-item .carousel-caption a {
+    margin-bottom: 5%;
 }
 
 #span1, #span2, #span3 {
@@ -96,6 +98,11 @@ body, html {
     
 }
 
+/*Following code idea taken from the following link */
+/*https://www.udemy.com/complete-front-end-web-developer-bootcamp/learn/v4/t/lecture/7759468?start=1281*/
+/*Igneus Technologies, Hitesh Choudhary*/
+/*Following code has been changed according to project needs*/
+
 .flag {
     margin: 0;
     padding: 0;
@@ -129,6 +136,8 @@ body, html {
     align-items: center;
 }
 
+/*******finish here*********/
+
 #countries .flag .buffer {
     margin-left: 30px;
 }
@@ -153,6 +162,10 @@ body, html {
     margin-top: 50px;
 }
 
+.blink h2 {
+    padding-bottom: 20px;
+}
+
 #us .carousel-inner {
     margin-bottom: 50px;
 }
@@ -163,6 +176,10 @@ body, html {
 
 .text {
     text-align: center;
+}
+
+.small {
+    font-size: 20px;
 }
 
 .blink .newColor {
@@ -243,6 +260,18 @@ footer {
 
 footer h1 {
     color:#ffa500;
+}
+
+
+/******Animations******/
+
+.scroll {
+    opacity: 0;
+    transition: all 300ms ease-in;
+}
+
+.scroll.animated {
+    opacity: 1;
 }
 
 
